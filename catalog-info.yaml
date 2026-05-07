@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-openvpn-server
+  annotations:
+    github.com/project-slug: nesport/aws-openvpn-server
+spec:
+  type: other
+  lifecycle: unknown
+  owner: ef
