@@ -5,6 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: nesport/aws-openvpn-server
 spec:
-  type: other
-  lifecycle: unknown
-  owner: ef
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - petstore1
